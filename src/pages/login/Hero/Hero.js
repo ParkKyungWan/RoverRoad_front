@@ -13,7 +13,7 @@ export default function Hero(){
     return(
         <div>
             <img className="logo" src={logo}/>
-            <div className="entire">
+            <div className="hero entire">
                 <div className="mainImage flex-item"/>
                 <div className="mainBar flex-item">
                     <LoginBar/>
