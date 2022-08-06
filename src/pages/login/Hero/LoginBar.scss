@@ -1,0 +1,43 @@
+.loginBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 24px auto auto auto;
+    width: 100%;
+    gap: 12px;
+
+}
+
+.loginBar .select{
+    border: none;
+    width: 157.5px;
+    height: 48px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    &:nth-child(1){
+        background: #F0F0F0;
+        color: rgba(28, 27, 31, 0.8);
+        &:active{
+            box-shadow: inset 10px 30px 20px #d4d3d3;
+        }
+    }
+    
+    &:nth-child(2){
+        background: #5278FF;
+        color: #ffffff;
+        &:active{
+            box-shadow: inset 10px 30px 20px #3761f7;
+        }
+    }
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+}
