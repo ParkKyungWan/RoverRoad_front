@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 //scss
-import './Login.scss'
+import './Login.scss';
 
 //components
 import LoginForm from './LoginForm';

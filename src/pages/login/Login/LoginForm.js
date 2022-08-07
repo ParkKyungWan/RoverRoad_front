@@ -1,7 +1,7 @@
 import React from 'react';
 
 //scss
-import './LoginForm.scss'
+import './LoginForm.scss';
 
 //image
 export default function LoginForm(){

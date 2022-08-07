@@ -1,8 +1,9 @@
 .loginBar {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 24px auto auto auto;
+    margin: 24px auto;
     width: 100%;
     gap: 12px;
 

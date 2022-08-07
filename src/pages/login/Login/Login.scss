@@ -1,32 +1,35 @@
-body{
-    .login.entire {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 327px;
-        margin: 0 auto;
-        max-width: 90%;
-        height: 100vh;
-        #logo{
-            margin: 68.81px auto 25.58px 0;
-            &:active{
-                opacity: 0.8;
-            }
-            &:hover{
-                cursor: pointer;
-            }
+
+@mixin formEntire {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 327px;
+    margin: 0 auto;
+    max-width: 90%;
+    height: 100vh;
+}
+
+.login.entire {
+    @include formEntire;
+    #logo{
+        margin: 68.81px auto 25.58px 0;
+        &:active{
+            opacity: 0.8;
         }
-        
-        .findQ{
-            margin: auto auto 48px auto;
-            width: 100%;
-            text-align: center;
-            a {
-                font-style: normal;
-                font-size: 14px;
-                text-decoration-line: underline;
-                color: #5278FF;
-            }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    
+    .findQ{
+        margin: auto auto 48px auto;
+        width: 100%;
+        text-align: center;
+        a {
+            font-style: normal;
+            font-size: 14px;
+            text-decoration-line: underline;
+            color: #5278FF;
         }
     }
 }

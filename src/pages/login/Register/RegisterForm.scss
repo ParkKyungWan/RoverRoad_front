@@ -1,0 +1,28 @@
+@import "../Login/LoginForm.scss";
+
+.register {
+    .form{
+        @include forms;
+    }
+    .input{
+        @include inputOrSubmit;
+        border: 1px solid #CDCDCD;
+    }
+    .submit{
+        @include inputOrSubmit;
+        border: none;
+        color: #ffffff;
+        background: #5278FF;
+    }
+    .inform{
+        color: rgba(28, 27, 31, 0.5);
+        font-size: 14px;
+        font-style: normal;
+        margin: 0 auto;
+    }
+    u{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

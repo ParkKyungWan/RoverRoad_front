@@ -1,7 +1,7 @@
 import React from 'react';
 
 //scss
-import './Hero.scss'
+import './Hero.scss';
 
 //image
 import logo from "images/hero/logo.svg"
