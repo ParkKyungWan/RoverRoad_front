@@ -1,7 +1,7 @@
-@import "../Login/Login.scss";
+@import "pages/common/common.scss";
 
 .register.entire{
-    @include formEntire;
+    @include Entire;
 
     .arrowback{
         margin: 64px auto 19px 0;

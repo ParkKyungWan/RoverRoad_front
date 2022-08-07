@@ -1,0 +1,30 @@
+.main-nav{
+    box-sizing: border-box;
+    position: fixed;
+    height: 120px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%; 
+    background: #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    text-align: center;
+
+    .main-nav-flex{
+        display: inline-flex;
+        flex-direction: row;
+        margin: 16px auto;
+        height: 54px;
+        gap: 0;
+        
+        overflow-x: scroll;
+        
+        .selectArea{
+            height: 54px;
+            width: 75px;
+            background-color: black;
+            &:nth-child(4){
+                background-color: aqua;
+            }
+        }
+    }
+}

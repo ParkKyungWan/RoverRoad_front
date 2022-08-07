@@ -1,16 +1,7 @@
-
-@mixin formEntire {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 327px;
-    margin: 0 auto;
-    max-width: 90%;
-    height: 100vh;
-}
+@import "pages/common/common.scss";
 
 .login.entire {
-    @include formEntire;
+    @include Entire;
     #logo{
         margin: 68.81px auto 25.58px 0;
         &:active{

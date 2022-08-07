@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Hero from './pages/login/Hero/Hero';
 import Login from './pages/login/Login/Login';
 import Register from 'pages/login/Register/Register';
+import Journal from 'pages/journal/Journal';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" element={<Hero />}/>
             <Route exact path="/login" element={<Login />}/>
             <Route exact path="/register" element={<Register />}/>
+            <Route exact path="/journal" element={<Journal />}/>
         </Routes>
       </BrowserRouter>
     </React.Fragment>

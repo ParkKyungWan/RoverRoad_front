@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import './Register.scss';
 
 //image
-import arrowback from 'images/hero/arrow_back.svg';
+import arrowback from 'images/arrow_back.svg';
 import RegisterForm from './RegisterForm';
 
 

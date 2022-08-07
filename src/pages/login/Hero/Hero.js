@@ -4,7 +4,7 @@ import React from 'react';
 import './Hero.scss';
 
 //image
-import logo from "images/hero/logo.svg"
+import logo from "images/logo.svg"
 
 //components
 import LoginBar from './LoginBar';

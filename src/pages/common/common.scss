@@ -1,0 +1,43 @@
+//Entire
+@mixin Entire {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 327px;
+    margin: 0 auto;
+    max-width: 90%;
+    height: 100vh;
+}
+
+
+//forms 
+
+@mixin forms{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+//input & submit
+
+@mixin inputOrSubmit{
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 8px 12px 12px;
+    font-style: normal;
+}
+
+
+//something need to push
+
+.push {
+    &:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    &:active{
+        box-shadow: inset 10px 30px 20px #3761f7;
+    }
+}

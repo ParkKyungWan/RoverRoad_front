@@ -7,7 +7,7 @@ import './Login.scss';
 //components
 import LoginForm from './LoginForm';
 //image
-import colorLogo from "images/hero/colorLogo.svg"
+import colorLogo from "images/colorLogo.svg"
 export default function Login(){
 
     let navigate = useNavigate();

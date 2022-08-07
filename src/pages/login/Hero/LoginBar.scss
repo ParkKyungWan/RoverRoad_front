@@ -1,3 +1,4 @@
+@import "pages/common/common.scss";
 .loginBar {
     display: flex;
     flex-direction: row;
@@ -7,16 +8,6 @@
     width: 100%;
     gap: 12px;
 
-}
-
-.push {
-    &:hover{
-        opacity: 0.8;
-        cursor: pointer;
-    }
-    &:active{
-        box-shadow: inset 10px 30px 20px #3761f7;
-    }
 }
 .loginBar .select{
     border: none;

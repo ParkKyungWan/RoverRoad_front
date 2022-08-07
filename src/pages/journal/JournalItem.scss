@@ -1,0 +1,64 @@
+@import "pages/common/common.scss";
+
+.journal-item  {
+    box-sizing: border-box;
+    max-width: 327px;
+    width: 100%;
+    border: 1px solid #D8D8D8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;    
+    padding-top: 135%;
+
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    cursor: pointer;
+    &:active{
+        opacity: 0.75;
+        filter: saturate(75%);
+    }
+    
+    
+    .textArea{
+        margin-top: -135%;
+        width:100%;
+        flex-grow: 0.63;
+        
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 24px;
+        
+        h1,h2{
+            margin: 0;
+            color: #5278FF;
+        }
+        h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        h2{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        
+    }
+    .imageArea{
+        pointer-events: none;
+        width: 100%;
+        flex-grow: 1;
+        border-radius: 0 0 16px 16px;
+        object-fit: cover;
+    }
+}
