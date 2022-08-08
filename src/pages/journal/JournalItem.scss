@@ -1,11 +1,13 @@
 @import "pages/common/common.scss";
 
 .journal-item  {
+    animation: fadein 2s;
     box-sizing: border-box;
     max-width: 327px;
     width: 100%;
     border: 1px solid #D8D8D8;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    background-color: #FFFFFF;
     border-radius: 16px;    
     padding-top: 135%;
 
@@ -60,5 +62,47 @@
         flex-grow: 1;
         border-radius: 0 0 16px 16px;
         object-fit: cover;
+    }
+}
+
+
+//글 선택 이후
+.journal-item.active {
+    cursor: default;
+    &:active{
+        opacity: 1;
+        filter: none;
+    }
+
+    animation: fadeup 0.7s;
+    z-index: 10;
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    
+    .textArea{
+        border-radius: 0;
+        h1 {
+            color: #1C1B1F;
+        }
+    }
+    .imageArea {
+        border-radius: 0;
+    }
+    .contentArea{
+        height: 100vh;
+        margin: 24px;
+        font-size: 16px;
+        color: rgba(28, 27, 31, 0.8);
+    }
+    .arrowback {
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+        margin: 64px auto 15px 0;
     }
 }

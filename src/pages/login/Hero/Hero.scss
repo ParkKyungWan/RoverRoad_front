@@ -1,12 +1,4 @@
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
+@import "pages/common/common.scss";
 .logo{
     position: absolute;
     top: 68px;
@@ -24,7 +16,7 @@
 }
 
 .flex-item:nth-child(1){
-    animation: fadein 3s;
+    animation: fadein 2s;
     background-image: url(/images/hero/mainImage.svg);
     /* Center and scale the image nicely */
     background-position: center;

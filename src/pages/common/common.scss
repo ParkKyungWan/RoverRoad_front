@@ -41,3 +41,24 @@
         box-shadow: inset 10px 30px 20px #3761f7;
     }
 }
+
+//animations
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeup {
+    from {
+        opacity: 0.5;
+        filter: saturate(1);
+        top: 30vh;
+    }
+    to{
+        filter: saturate(1);
+    }
+}
