@@ -15,15 +15,39 @@
         margin: 16px auto;
         height: 54px;
         gap: 0;
-        
-        overflow-x: scroll;
-        
         .selectArea{
+            display: flex;
+            flex-direction: column;
             height: 54px;
             width: 75px;
-            background-color: black;
-            &:nth-child(4){
-                background-color: aqua;
+            align-items: center;
+            cursor: pointer;
+            filter: saturate(20%);
+
+            .icon{
+                box-sizing: border-box;
+                width: 21px;
+                height: 21px;
+                margin-top: 3.5px;
+                margin-bottom: 15px;
+                
+                .my{
+                    box-sizing: border-box;
+                    border-radius: 70%;
+                    width: 28px;
+                    height: 28px;
+                    border: 2px solid #5278FF;
+                    margin-left: -3.5px;
+                    background: url(/images/common/mainNav/ProfileSample.svg);
+                    background-position: center;
+                }
+
+            }
+            p { 
+                height: 18px;
+                margin: 0 auto;
+                font-size: 12px;
+                color: #5278FF;
             }
         }
     }
