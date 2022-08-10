@@ -9,7 +9,6 @@ import sampleThumnail from "images/journal/SampleThumnail.svg";
 
 //component
 import JournalItem from "./JournalItem";
-import MainNav from 'pages/common/nav/mainNav';
 
 export default function Journal(){
 
@@ -32,7 +31,6 @@ export default function Journal(){
                     <JournalItem item={sample} />
                 </div>
             </div>
-            <MainNav active="journal"/>
         </div>
     )
 }
